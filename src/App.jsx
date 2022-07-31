@@ -1,5 +1,5 @@
 import { Header } from "./components/Header";
-import { Post } from "./Post";
+import { Post } from './components/Post'
 import { Sidebar } from './components/Sidebar';
 
 import './global.css';
@@ -16,15 +16,8 @@ function App() {
         <Sidebar />
 
         <main>
-          <Post 
-          author="Mathews" 
-          content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae quo consectetur quis a ducimus possimus fuga amet explicabo voluptatibus magni pariatur recusandae, atque voluptatum optio eius asperiores. Numquam, accusantium sit."
-          />
-  
-          <Post
-          author="Carla"
-          content="Um novo post aqui muito legal!" 
-          />
+          <Post />
+          <Post />
         </main>
       </div>
 
