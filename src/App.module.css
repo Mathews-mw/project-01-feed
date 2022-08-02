@@ -8,3 +8,15 @@
     gap: 2rem;
     align-items: flex-start;
 }
+
+/* Ajuste de telas para a responsividade. Esse ajuste será aplicando quando o formato de tela for meno que 768px */
+@media (max-width: 768px) {
+    
+    html {
+        font-size: 87.5%;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
