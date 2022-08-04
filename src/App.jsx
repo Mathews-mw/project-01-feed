@@ -24,7 +24,8 @@ function App() {
         <main>
           {PostData.map(post => {
             return(
-              <Post 
+              <Post
+                key={post.id} 
                 author = {post.author}
                 content = {post.content}
                 puplishAt = {post.puplishAt}
